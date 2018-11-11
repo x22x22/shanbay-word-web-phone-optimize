@@ -22,11 +22,18 @@
       }
       if (
         nextButtons &&
-        nextButtons.length > 0 &&
+        nextButtons.length === 1 &&
         (OLeft === 0 || nextButtons[0].style.left.replace('px', '') === OLeft)
       ) {
         OLeft = nextButtons[0].style.left.replace('px', '');
-        nextButtons[0].style.left = OLeft - 30 + 'px';
+        nextButtons[0].style.left = OLeft - 620 + 'px';
+      } else if (
+        nextButtons &&
+        nextButtons.length === 2 &&
+        (OLeft === 0 || nextButtons[1].style.left.replace('px', '') === OLeft)
+      ) {
+        OLeft = nextButtons[0].style.left.replace('px', '');
+        nextButtons[0].style.left = OLeft - 610 + 'px';
       }
     });
   }
