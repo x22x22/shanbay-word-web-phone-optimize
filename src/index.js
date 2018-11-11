@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         shanbay word web phone optimize
 // @namespace    https://github.com/x22x22
-// @version      0.1
+// @version      0.2
 // @description  使用油猴脚本优化使用安卓端的yandex, Firefox等支持油猴插件的浏览器访问扇贝时对手机端界面的展示.
 // @author       x22x22
 // @match        https://www.shanbay.com/bdc/review/
